@@ -7,7 +7,7 @@ perl_version '5.006';
 
 requires 'Data::Semantic';
 
-build_requires 'Test::CompanionClasses';
+build_requires 'Test::CompanionClasses' => '0.03';
 build_requires 'Test::Differences';
 build_requires 'Test::More' => '0.70';
 

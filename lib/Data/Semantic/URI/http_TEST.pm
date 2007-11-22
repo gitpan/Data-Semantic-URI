@@ -6,7 +6,7 @@ use Test::More;
 use Test::Differences;
 
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 
 use base qw(
@@ -122,7 +122,7 @@ please use the C<datasemanticuri> tag.
 
 =head1 VERSION 
                    
-This document describes version 0.01 of L<Data::Semantic::URI::http_TEST>.
+This document describes version 0.02 of L<Data::Semantic::URI::http_TEST>.
 
 =head1 BUGS AND LIMITATIONS
 

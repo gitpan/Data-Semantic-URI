@@ -4,7 +4,7 @@ use strict;
 use warnings;
 
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 
 use base qw(Data::Semantic::URI);
@@ -95,7 +95,7 @@ please use the C<datasemanticuri> tag.
 
 =head1 VERSION 
                    
-This document describes version 0.01 of L<Data::Semantic::URI::gopher>.
+This document describes version 0.02 of L<Data::Semantic::URI::gopher>.
 
 =head1 BUGS AND LIMITATIONS
 

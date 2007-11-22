@@ -4,7 +4,7 @@ use strict;
 use warnings;
 
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 
 no warnings 'qw';    # Possible attempt to put comments in qw() list 
@@ -88,7 +88,7 @@ please use the C<datasemanticuri> tag.
 
 =head1 VERSION 
                    
-This document describes version 0.01 of L<Data::Semantic::URI::TestData::http>.
+This document describes version 0.02 of L<Data::Semantic::URI::TestData::http>.
 
 =head1 BUGS AND LIMITATIONS
 

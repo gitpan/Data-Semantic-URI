@@ -4,6 +4,13 @@ global:
 releases:
   - author: 'Marcel Gruenauer <marcel@cpan.org>'
     changes:
+      - set the version to 0.02
+      - 'Makefile.PL: now requires Test::CompanionClasses 0.03; earlier versions had a bug in make_real_object()'
+    date: 2007-11-22T13:09:03Z
+    tags: []
+    version: 0.02
+  - author: 'Marcel Gruenauer <marcel@cpan.org>'
+    changes:
       - original version
       - 'Makefile.PL: fixed requirements'
       - "Data::Semantic::URI::TestData::*: there's not just 'good' and 'bad', there's 'well_formed', 'not_well_formed', 'valid' and 'invalid' under certain argument combinations"
