@@ -1,27 +1,52 @@
-This is the Perl distribution Data-Semantic-URI.
+NAME
+    Data::Semantic::URI - Semantic data classes for URI-related data
+
+VERSION
+    version 1.100850
+
+DESCRIPTION
+    This is a base class for semantic data classes for URIs. Classes for the
+    following URI types are available:
+
+    "fax"
+        See Data::Semantic::URI::fax.
+
+    "file"
+        See Data::Semantic::URI::file.
+
+    "ftp"
+        See Data::Semantic::URI::ftp.
+
+    "http"
+        See Data::Semantic::URI::http.
 
 INSTALLATION
+    See perlmodinstall for information and options on installing Perl
+    modules.
 
-Data-Semantic-URI installation is straightforward. If your CPAN shell is
-set up, you should just be able to do
+BUGS AND LIMITATIONS
+    No bugs have been reported.
 
-    % cpan Data::Semantic::URI
+    Please report any bugs or feature requests through the web interface at
+    <http://rt.cpan.org/Public/Dist/Display.html?Name=Data-Semantic-URI>.
 
-Download it, unpack it, then build it as per the usual:
+AVAILABILITY
+    The latest version of this module is available from the Comprehensive
+    Perl Archive Network (CPAN). Visit <http://www.perl.com/CPAN/> to find a
+    CPAN site near you, or see
+    <http://search.cpan.org/dist/Data-Semantic-URI/>.
 
-    % perl Makefile.PL
-    % make && make test
+    The development version lives at
+    <http://github.com/hanekomu/Data-Semantic-URI/>. Instead of sending
+    patches, please fork this project using the standard git and github
+    infrastructure.
 
-Then install it:
+AUTHOR
+      Marcel Gruenauer <marcel@cpan.org>
 
-    % make install
+COPYRIGHT AND LICENSE
+    This software is copyright (c) 2007 by Marcel Gruenauer.
 
-DOCUMENTATION
+    This is free software; you can redistribute it and/or modify it under
+    the same terms as the Perl 5 programming language system itself.
 
-Data-Semantic-URI documentation is available as in POD. So you can do:
-
-    % perldoc Data::Semantic::URI
-
-to read the documentation online with your favorite pager.
-
-Marcel Gruenauer
